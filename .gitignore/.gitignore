@@ -1,4 +1,5 @@
 **/aclImdb
+**/local_data
 *.tar
 .vscode
 .ipynb_checkpoints
