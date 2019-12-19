@@ -1,0 +1,5 @@
+**/aclImdb
+*.tar
+.vscode
+.ipynb_checkpoints
+.git
