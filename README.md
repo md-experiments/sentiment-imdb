@@ -53,6 +53,9 @@ sa=SentimentAnalyser(
 sa.train() # Trains and saves locally if persisted
 query=['Comment', 'more comment', 'Three comment']
 sa.predict(query) # Uses selected model to predict for list of strings
+
+df_train, df_test = dataloader(data_sz= 10)
+sa.eval(df_test.Comment, df_test.Label) # evaluates performance of model for a set of inputs
 ```
 ##### Tests
 Run from terminal:
