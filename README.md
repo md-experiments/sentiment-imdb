@@ -21,6 +21,7 @@ Tf-Idf  | GBM | 82.7% | 80.1% | 80.1%
 2. Download training data (needed for retrain and running some of the tests) to the repo from https://ai.stanford.edu/~amaas/data/sentiment/ 
 Folder structure should be as follows:
 | sentiment-imdb/
+
 | --> tests/
 | --> aclImdb/  (Raw downloaded data file)
 | --> aclImdb_v1.tar (Raw downloaded data file)
