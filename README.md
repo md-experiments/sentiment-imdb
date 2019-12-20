@@ -7,7 +7,7 @@ The module allows both direct prediction based on pre-trained models as well as 
 
 The supported models are Logistic Regression and GBM classifiers. With vectorization done either as Bag-of-Words or TfIdf. The data used for training is from IMDB Reviews (https://ai.stanford.edu/~amaas/data/sentiment/) hence usage is recommended to be limited to similar context. 
 
-Performance of the different pretrained models by data set as follows. This repo is automatically set to run on the best performing set based on Validation performance (Logistic Classifier with BoW Vectorizer):
+Accuracy of the different pretrained models by data set as follows. This repo is automatically set to run on the best performing set based on Validation performance (Logistic Classifier with BoW Vectorizer):
 
 Vectorizer  | Classifier | Train (67% aclImbd/train) | Dev (33% aclImbd/train) | Validation (aclImbd/test)
 ------------- | -------------|---|---|---
