@@ -41,8 +41,8 @@ Navigate to the project directory. After importing SentimentAnalyzer one can cho
 ```
 from main import SentimentAnalyser
 sa=SentimentAnalyser(
-	vectorizer='TfIdf', # Specify TfIdf or BoW
-	classfier='logistic',  # Specify logistic or GBM
+	vectorizer='TfIdf', # Accepts 'TfIdf' or 'BoW'
+	classfier='logistic',  # Accepts 'logistic' or 'GBM'
 	data_size=-1, # Specify explicit number of entries from data used for training 
 	# (irrelevant for .predict). -1 means use all data
 	
