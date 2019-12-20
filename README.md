@@ -23,8 +23,8 @@ Folder structure should be as follows:
 
 	    .
 	    ├── tests/
-	    ├── aclImdb/ # Data file extract
 	    ├── aclImdb_v1.tar # Raw downloaded data file
+	    ├── aclImdb/ # Data file extract (actually extracting the files is optional)
 	    ├── main.py
 	    ├── tests.py
 	    ├── utils.py
