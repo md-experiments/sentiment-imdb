@@ -43,7 +43,9 @@ from main import SentimentAnalyser
 sa=SentimentAnalyser(
 	vectorizer='TfIdf', # Specify TfIdf or BoW
 	classfier='logistic',  # Specify logistic or GBM
-	data_size=-1, # Specify explicit number of entries from the Imdb data to use for training (irrelevant for .predict)
+	data_size=-1, # Specify explicit number of entries from data used for training 
+	# (irrelevant for .predict). -1 means use all data
+	
 	persist=False, # If model train is called, new trained model will be persisted
 	cold_start=False, # .predict retrains model on the spot
 	verbose=0) # Levels of verbosity
