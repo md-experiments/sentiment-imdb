@@ -54,6 +54,13 @@ sa.train() # Trains and saves locally if persisted
 query=['Comment', 'more comment', 'Three comment']
 sa.predict(query) # Uses selected model to predict for list of strings
 ```
+##### Tests
+Run from terminal:
+```
+python tests.py
+```
+
+
 
 ### Feature List & Next Steps
 - Data Science
