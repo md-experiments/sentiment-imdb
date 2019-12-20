@@ -39,12 +39,12 @@ Navigate to the project directory. After importing SentimentAnalyzer one can cho
 ```
 from main import SentimentAnalyser
 sa=SentimentAnalyser(
-					vectorizer='TfIdf', # Specify TfIdf or BoW
-					classfier='logistic',  # Specify logistic or GBM
-					data_size=-1, # Specify explicit number of entries from the Imdb data to use for training (irrelevant for .predict)
-					persist=False, # If model train is called, new trained model will be persisted
-					cold_start=False, # .predict retrains model on the spot
-					verbose=0) # Levels of verbosity
+	vectorizer='TfIdf', # Specify TfIdf or BoW
+	classfier='logistic',  # Specify logistic or GBM
+	data_size=-1, # Specify explicit number of entries from the Imdb data to use for training (irrelevant for .predict)
+	persist=False, # If model train is called, new trained model will be persisted
+	cold_start=False, # .predict retrains model on the spot
+	verbose=0) # Levels of verbosity
 
 sa.train() # Trains and saves locally if persisted
 query=['Comment', 'more comment', 'Three comment']
