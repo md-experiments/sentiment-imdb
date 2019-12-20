@@ -73,7 +73,7 @@ python tests.py
 - [x] BoW / TfIdf Vectorizer
 - [x] Logistic & GBM
 - [x] Compare models based on train / dev / validation set
-- [ ] Expand to LSTM
+- [ ] Expand to word2vec & LSTM
 - [ ] Hyperparameter optimisation needed for GBM to improve performance
 - Module Features
 - [x] Set size of data set load to the entire class
