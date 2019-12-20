@@ -1,7 +1,7 @@
 # Sentiment IMDB
 
 ### Introduction
-The objective is to provide a module that can performe sentiment analysis based on pre-trained models and have persistance.
+The objective is to provide a module that can perform sentiment analysis based on pre-trained models and have persistance.
 
 The module allows both direct prediction based on pre-trained models as well as the capability to train/predict based on a model of choice
 
