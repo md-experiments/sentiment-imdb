@@ -21,15 +21,15 @@ Tf-Idf  | GBM | 82.7% | 80.1% | 80.1%
 2. Download training data (needed for retrain and running some of the tests) to the repo from https://ai.stanford.edu/~amaas/data/sentiment/ 
 Folder structure should be as follows:
 
-    .
-    ├── tests/
-    ├── aclImdb/  # Data file extract
-    ├── aclImdb_v1.tar # Raw downloaded data file
-    ├── main.py
-    ├── tests.py
-    ├── utils.py
-    ├── ...
-
+	    .
+	    ├── tests/
+	    ├── **aclImdb/** # Data file extract
+	    ├── **aclImdb_v1.tar** # Raw downloaded data file
+	    ├── main.py
+	    ├── tests.py
+	    ├── utils.py
+	    ├── ...
+    
 3. Run `pip install requirements.txt`
 
 ### Usage
